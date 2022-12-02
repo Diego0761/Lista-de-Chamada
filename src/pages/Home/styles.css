@@ -93,4 +93,13 @@ form {
   h1 {
     font-size: 1.3em;
   }
+
+  .container input {
+    width: 80%;
+  }
+
+  .container button {
+    width: 80%;
+  }
+
 }
