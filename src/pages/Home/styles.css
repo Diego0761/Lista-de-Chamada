@@ -70,3 +70,27 @@ form {
   align-items: center;
   flex-direction: column;
 }
+
+@media (max-width: 800px) {
+  .container header {
+    width: 50%;
+    margin: 84px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  
+  .container header div {
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+  .container header strong {
+    margin-bottom: 5%;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+}

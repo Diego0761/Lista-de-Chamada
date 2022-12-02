@@ -40,7 +40,7 @@ function Home() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("https://api.github.com/users/diego0761")
+      const response = await fetch("https://api.github.com/users/Diego0761")
       const data = await response.json() as ProfileResponse
       setUser({
         name: data.name ?? 'Usuário do Github',
